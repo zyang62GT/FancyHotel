@@ -1,0 +1,33 @@
+a img{
+  border:none;
+}
+a:link { text-decoration:none; color:black;}
+a:visited { text-decoration:none;  color:black;}
+a:hover { text-decoration:none;  color:black;}
+a:active { text-decoration:none;  color:black;}
+header{
+  color:black;
+  background-image: url('./cuba.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  border:1px solid gray;
+  padding:10px;
+  text-decoration: none;
+}
+nav{
+  border-right:1px solid gray;
+  width:250px;
+  height:600px;
+  float:left;
+}
+nav ol{
+  list-style:none;
+}
+article{
+  float:left;
+  padding:20px;
+}
